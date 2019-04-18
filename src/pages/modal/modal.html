@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-buttons end>
+
+      <ion-icon name="md-close"></ion-icon>
+
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<!-- "",
+      "Chicken & More",
+      "Salad & Veggies",
+      "Breakfast",
+      "Beverages",
+      "Coffee",
+      "Sides",
+      "Sweets",
+      "King Jnr Meals",
+      "" -->
+
+<ion-content padding style="background-color:#000">
+
+  <ion-grid style="height: 100%">
+      <ion-row justify-content-center align-items-center>
+          <ion-icon name="more" style="zoom:3.0" ></ion-icon>
+      </ion-row>
+    <ion-row justify-content-center align-items-center>
+      <h4 class="modMenu" (click)="goback()">Burger</h4>
+    </ion-row>
+
+    <ion-row justify-content-center align-items-center>
+      <h4 class="modMenu" (click)="goback()">Salad & Veggies</h4>
+    </ion-row>
+
+    <ion-row justify-content-center align-items-center>
+      <h4 class="modMenu" (click)="goback()">Breakfast</h4>
+    </ion-row>
+
+    <ion-row justify-content-center align-items-center>
+      <h4 class="modMenu" (click)="goback()">Beverages</h4>
+    </ion-row>
+
+    <ion-row justify-content-center align-items-center>
+      <h4 class="modMenu" (click)="goback()">Coffee</h4>
+    </ion-row>
+
+    <ion-row justify-content-center align-items-center>
+      <h4 class="modMenu" (click)="goback()">Sides</h4>
+    </ion-row>
+
+    <ion-row justify-content-center align-items-center>
+        <h4 class="modMenu" (click)="goback()">Sweets</h4>
+      </ion-row>
+  
+      <ion-row justify-content-center align-items-center>
+        <h4 class="modMenu" (click)="goback()">King Jnr Meals</h4>
+      </ion-row>
+  
+      <ion-row justify-content-center align-items-center>
+        <h4 class="modMenu" (click)="goback()">Value Menu</h4>
+      </ion-row>
+
+  </ion-grid>
+
+</ion-content>
+
+<ion-footer color="dark" class="myColor">
+    <ion-toolbar style="background-color:#000 !important;">
+      <ion-title style="color:#f6a800" (click)="goToAbout()">About</ion-title>
+    </ion-toolbar>
+  </ion-footer>

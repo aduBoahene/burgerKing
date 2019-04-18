@@ -1,0 +1,20 @@
+
+
+<ion-content padding style="background-color:#000">
+
+  <ion-grid>
+    <ion-row justify-content-center align-items-center style="height: 100%;color:#fff">
+        <ion-icon name="ios-more-outline" style="zoom:3.0" (click)="openModal()"></ion-icon>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6 *ngFor="let cat of categories">
+        <div text-center style="border:1px solid grey;padding:5px;border-radius:10px" (click)="goToList(cat)">
+          <img [src]="cat.image" text-center />
+          <span style="color:#fff">{{cat.name}}</span>
+        </div>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

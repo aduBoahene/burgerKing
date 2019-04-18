@@ -1,0 +1,34 @@
+page-modal {
+
+  ion-header {
+    .toolbar {
+      position: absolute;
+
+      .toolbar-background {
+        background: transparent;
+      }
+
+      .toolbar-title {
+        color: black;
+      }
+    }
+  }
+
+
+
+  .modMenu {
+    color: #f6a800;
+    text-transform: uppercase;
+    font-size: 20px !important;
+    letter-spacing: 7px;
+  }
+
+
+  .myColor{
+    background-color:#000 !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
